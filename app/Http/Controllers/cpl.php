@@ -18,9 +18,9 @@ class cpl extends Controller
         return view('Projects');
     }
 
-    public function Tags()
+    public function Contacts()
     {
-        return view('Tags');
+        return view('Contacts');
     }
 
     public function About()

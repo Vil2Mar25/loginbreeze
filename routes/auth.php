@@ -25,8 +25,8 @@ Route::middleware('guest')->group(function () {
     /*======================================================================== */
     /* ROTAS PARA NOVAS PÁGINAS DA APLICAÇÃO */
     
-    Route::get('tags', [cpl::class, 'Tags'])
-    ->name('tags');
+    Route::get('contacts', [cpl::class, 'Contacts'])
+    ->name('contacts');
     
     Route::get('projects',[cpl::class, 'Projects'])
     ->name('projects');
