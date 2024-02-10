@@ -13,14 +13,10 @@ class cpl extends Controller
      * @param  int  $id
      * @return \Illuminate\View\View
      */
-    public function Projects()
-    {
-        return view('Projects');
-    }
 
     public function Contacts()
     {
-        return view('Contacts');
+        return view('../components/barra').view('Contacts');
     }
 
     public function About()

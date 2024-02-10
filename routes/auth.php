@@ -28,9 +28,6 @@ Route::middleware('guest')->group(function () {
     Route::get('contacts', [cpl::class, 'Contacts'])
     ->name('contacts');
     
-    Route::get('projects',[cpl::class, 'Projects'])
-    ->name('projects');
-    
     Route::get('about' ,[cpl::class, 'About'])
     ->name('about');
 
